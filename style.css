@@ -17,12 +17,18 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .blue {
     background: #1F2937;
 }
 
-.wrapper {
-    max-width: 100%;
+.white {
+    background: white;
 }
 
 .header {
@@ -47,7 +53,7 @@ h1 {
 .hero {
     display: flex;
     justify-content: center;
-    padding: 72px 0;
+    padding: 72px 0 96px;
     gap: 32px;
     max-width: 1200px;
     margin: auto;
@@ -63,7 +69,6 @@ h1 {
     padding: 0;
     width: 128px;
     height: 36px;
-    flex-grow: 0;
     font-size: 18px;
     background-color: #3882F6;
     border: none;
@@ -74,4 +79,35 @@ h1 {
 
 .sign-up:hover {
     background-color: #115eda;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    padding: 24px 0px 96px;
+}
+
+.info-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    gap: 48px;
+    text-align: center;
+    color: #6D747D;
+    font-size: 18px;
+}
+
+.info-list > li {
+    max-width: 150px;
+}
+
+.info-list > li > img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
 }
