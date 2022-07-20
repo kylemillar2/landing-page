@@ -5,14 +5,35 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.blue {
+    background: #1F2937;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background: #1F2937;
+    justify-content: space-between;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .header-links {
@@ -23,8 +44,34 @@ body {
     font-weight: 400;
 }
 
-a {
-    text-decoration: none;
-    color: #E5E7EB;
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 72px 0;
+    gap: 32px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-text {
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    border-radius: 8px;
+    padding: 0;
+    width: 128px;
+    height: 36px;
+    flex-grow: 0;
+    font-size: 18px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-color: #115eda;
 }
