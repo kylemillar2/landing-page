@@ -35,6 +35,12 @@ h2 {
     background: #E5E7EB;
 }
 
+.header-wrapper {
+    background: #1F2937;
+    position: sticky;
+    top: 0;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -43,7 +49,10 @@ h2 {
     font-size: 24px;
     font-weight: 900;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background: #1F2937;
 }
 
 .header-links {
@@ -130,7 +139,7 @@ h2 {
     padding: 124px 0 72px 0;
 }
 
-.text {
+.quote-text {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
@@ -142,4 +151,31 @@ h2 {
     font-weight: 900;
     margin-left: auto;
     margin-right: 100px;
+}
+
+.bottom-button {
+    border: 2px solid white;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    max-width: 1200px;
+    height: 6em;
+    margin: 150px auto;
+    padding: 48px;
+    border-radius: 16px;
+}
+
+.bottom-bold {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bottom-text > p {
+    margin: 0;
 }
